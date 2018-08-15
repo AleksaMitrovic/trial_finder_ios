@@ -1,0 +1,125 @@
+/*
+ Localizable.strings
+ Trial Finder
+ 
+ Created by Huynh Danh on 12/31/16.
+ Copyright © 2016 Iran Mateu. All rights reserved.
+ */
+
+
+/* Login */
+
+"Login" = "Login";
+"Email address" = "Email address";
+"Password" = "Password";
+"If an account doesn't exist, one will be created for you" = "If an account doesn't exist, one will be created for you";
+"Forgot Password?" = "Forgot Password?";
+"Sign in" = "Sign in";
+
+"Email is Invalid" = "Email is Invalid";
+"Passwor id Invalid" = "Passwor id Invalid";
+"Wrong password" = "Wrong password";
+
+/* Forgot Password */
+
+"Forgot Password" = "Forgot Password";
+"Email address" = "Email address";
+"An email will be sent to your email address" = "An email will be sent to your email address";
+"Reset" = "Reset";
+
+"Email is invalid" = "Email is invalid";
+"OK. Check your email" = "OK. Check your email";
+
+/* Menu */
+
+"You are signed in as" = "You are signed in as";
+"Main Feed" = "Main Feed";
+"Settings" = "Settings";
+"Logout" = "Logout";
+
+/* Main Feed */
+
+"Main Feed" = "Main Feed";
+"Search" = "Search";
+"Miles away" = "Miles away";
+
+"Zip code" = "Zip code";
+"Enter a zip code" = "Enter a zip code";
+"Please enter a valid zip code" = "Please enter a valid zip code";
+"Enable Location" = "Enable Location";
+
+"No trials found within a 50 mile radius of your location" = "No trials found within a 50 mile radius of your location";
+
+/* Details */
+
+"Trial Details" = "Trial Details";
+"Contact Information:" = "Contact Information:";
+"Location:" = "Location:";
+"Call" = "Call";
+"Email" = "Email";
+"Directions to Business";
+
+"Cancel" = "Cancel";
+
+/* Directions */
+
+"Directions" = "Directions";
+
+/* Settings */
+
+"Settings" = "Settings";
+
+"Information" = "Information";
+
+"Name" = "Name";
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Sex" = "Sex";
+"Male" = "Male";
+"Female" = "Female";
+"Birth date" = "Birth date";
+"Age" = "Age";
+"Height" = "Height";
+"Feet" = "Feet";
+"Inches" = "Inches";
+"Weight" = "Weight";
+"Pounds" = "Pounds";
+
+"Update" = "Update";
+
+"Password" = "Password";
+"Current Password" = "Current Password";
+"New Password" = "New Password";
+
+"Change" = "Change";
+
+"Language" = "Language";
+"Current Language" = "Current Language";
+"at least 6 characters" = "at least 6 characters";
+
+"Set" = "Set";
+
+"Done" = "Done";
+"OK" = "OK";
+
+"Could not update information" = "Could not update information";
+"Information is changed" = "Information is changed";
+"Current Password is Invalid" = "Current Password is Invalid";
+"New Password must be at least 6 characters" = "New Password must be at least 6 characters";
+"Wrong password" = "Wrong password";
+"Could not change password" = "Could not change password";
+"Password is changed" = "Password is changed";
+
+/* Sort & Filter */
+
+"Sort & Filter" = "Sort & Filter";
+"max" = "max";
+"mile" = "mile";
+"Sort by" = "Sort by";
+"Closest site" = "Closest site";
+"Newest trial posted" = "Newest trial posted";
+"Oldest trial posted" = "Oldest trial posted";
+"Distance" = "Distance";
+"Name of site" = "Name of site";
+"All" = "All";
+"Type of study" = "Type of study";

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphoneos/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/unextended-module.modulemap',
+    }]
+  }]
+}

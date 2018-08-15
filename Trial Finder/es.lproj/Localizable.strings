@@ -1,0 +1,124 @@
+/*
+ Localizable.strings
+ Trial Finder
+ 
+ Created by Huynh Danh on 12/31/16.
+ Copyright © 2016 Iran Mateu. All rights reserved.
+ */
+
+
+/* Login */
+
+"Login" = "Iniciar sesión";
+"Email address" = "Correo electrónico";
+"Password" = "Contraseña";
+"If an account doesn't exist, one will be created for you" = "Si una cuenta no existe, se creará una para usted";
+"Forgot Password?" = "¿Se le olvidó su contraseña?";
+"Sign in" = "Iniciar sesión";
+
+"Email is Invalid" = "Correo electrónico es inválido";
+"Passwor id Invalid" = "Contraseña inválida";
+"Wrong password" = "Contraseña incorrecta";
+
+/* Forgot Password */
+
+"Forgot Password" = "Olvidó su contraseña";
+"Email address" = "Correo electrónico";
+"An email will be sent to your email address" = "Recibiras un correo electrónico dentro de poco.";
+"Reset" = "Resetear";
+
+"Email is invalid" = "Correo electrónico es inválido";
+"OK. Check your email" = "Chequea su correo electrónico";
+
+/* Menu */
+
+"You are signed in as" = "Estás registrado como";
+"Trials" = "Estudios";
+"Settings" = "Ajustes";
+"Logout" = "Cerrar sesión";
+
+/* Main Feed */
+
+"Main Feed" = "Estudios";
+"Search" = "Buscar";
+"Cancel" = "Cancelar";
+"Miles away" = "Millas lejos";
+
+"Zip code" = "Código postal";
+"Enter a zip code" = "Introduzca un código postal";
+"Please enter a valid zip code" = "Por favor ingrese un codigo postal valido";
+"Enable Location" = "Habilitar ubicación";
+
+"No trials found within a 50 mile radius of your location" = "No se encontraron ensayos en un radio de 50 millas de su ubicación";
+
+/* Details */
+
+"Trial Details" = "Detalles de el estudio";
+"Contact Information:" = "Información de contacto:";
+"Location:" = "Ubicación:";
+"Call" = "Llamar";
+"Email" = "Correo";
+"Directions to Business" = "Direcciones a el sitio";
+
+/* Directions */
+
+"Directions" = "Direcciones";
+
+/* Settings */
+
+"Settings" = "Ajustes";
+
+"Information" = "Información";
+
+"Name" = "Nombre";
+"First Name" = "Primer nombre";
+"Last Name" = "Apellido";
+"Sex" = "Sexo";
+"Male" = "Hombre";
+"Female" = "Mujer";
+"Birth date" = "Fecha de nacimiento";
+"Age" = "Edad";
+"Height" = "Altura";
+"Feet" = "Pies";
+"Inches" = "Pulgada";
+"Weight" = "Peso";
+"Pounds" = "Libras";
+
+"Update" = "Actualizar";
+
+"Password" = "Contraseña";
+"Current Password" = "Contraseña actual";
+"New Password" = "Nueva contraseña";
+
+"Change" = "Cambiar";
+
+"Language" = "Idioma";
+"Current Language" = "Lenguaje actual";
+"at least 6 characters" = "al menos 6 caracteres";
+
+"Set" = "Establecer";
+
+"Done" = "Hecho";
+"OK" = "De acuerdo";
+
+"Could not update information" = "No se pudo actualizar la información.";
+"Information is changed" = "Información ha cambiado";
+"Current Password is Invalid" = "Contraseña actual no es válida";
+"New Password must be at least 6 characters" = "La nueva contraseña debe tener al menos 6 letras";
+"Wrong password" = "Contraseña invalida";
+"Could not change password" = "No se pudo cambiar la contraseña";
+"Password is changed" = "contraseña se ha cambiado";
+
+/* Sort & Filter */
+
+"Sort & Filter" = "Ordenar y filtrar";
+"max" = "maximo";
+"mile" = "milla";
+"Sort by" = "ordenar por";
+"Closest site" = "Sitio más cercano";
+"Newest trial posted" = "Estudio más nuevo";
+"Oldest trial posted" = "Estudio más antiguo";
+"Distance" = "Distancia";
+"Name of site" = "Nombre de el sitio";
+"All" = "Todos";
+"Type of study" = "Tipo de estudio";

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "11a563985bfd9f35e56a69ed4ea35a3f"
+build_time: [539298246, 566844000]
+inputs:
+  "/Users/milangarg/development/projects/TrialFinder/Pods/Hex/Source/UIColor+Hex.swift": [9223372036854775807, 0]

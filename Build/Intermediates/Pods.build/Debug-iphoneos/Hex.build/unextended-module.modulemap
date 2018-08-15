@@ -1,0 +1,10 @@
+framework module Hex {
+  umbrella header "Hex-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Hex.__Swift {
+    exclude header "Hex-Swift.h"
+}

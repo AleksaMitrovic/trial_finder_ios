@@ -1,0 +1,719 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuVC"
+provides-nominal:
+- "C12Trial_Finder6MenuVC"
+provides-member:
+- ["C12Trial_Finder6MenuVC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "accountLabel"
+- "logout"
+- "showMainFeed"
+depends-top-level:
+- "AnyObject"
+- !private "KEY_EMAIL"
+- !private "KeychainWrapper"
+- !private "KEY_UID"
+- !private "print"
+- "AssignmentPrecedence"
+- "MenuVC"
+- "UILabel"
+- "UIViewController"
+- !private "FIRAuth"
+depends-member:
+- !private ["Ps9AnyObject", "FIRAuth"]
+- !private ["Ps9AnyObject", "KEY_EMAIL"]
+- !private ["Ps9AnyObject", "KEY_UID"]
+- !private ["Ps9AnyObject", "KeychainWrapper"]
+- ["Ps9AnyObject", "accountLabel"]
+- !private ["Ps9AnyObject", "auth"]
+- !private ["Ps9AnyObject", "currentUser"]
+- ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "logout"]
+- !private ["Ps9AnyObject", "performSegue"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "removeObject"]
+- !private ["Ps9AnyObject", "revealToggle"]
+- !private ["Ps9AnyObject", "revealViewController"]
+- ["Ps9AnyObject", "showMainFeed"]
+- !private ["Ps9AnyObject", "signOut"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "FIRAuth"]
+- !private ["Ps7CVarArg", "KEY_EMAIL"]
+- !private ["Ps7CVarArg", "KEY_UID"]
+- !private ["Ps7CVarArg", "KeychainWrapper"]
+- ["Ps7CVarArg", "accountLabel"]
+- !private ["Ps7CVarArg", "auth"]
+- !private ["Ps7CVarArg", "currentUser"]
+- !private ["Ps7CVarArg", "email"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "logout"]
+- !private ["Ps7CVarArg", "performSegue"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "revealToggle"]
+- !private ["Ps7CVarArg", "revealViewController"]
+- ["Ps7CVarArg", "showMainFeed"]
+- !private ["Ps7CVarArg", "signOut"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "FIRAuth"]
+- !private ["Ps28CustomDebugStringConvertible", "KEY_EMAIL"]
+- !private ["Ps28CustomDebugStringConvertible", "KEY_UID"]
+- !private ["Ps28CustomDebugStringConvertible", "KeychainWrapper"]
+- ["Ps28CustomDebugStringConvertible", "accountLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "auth"]
+- !private ["Ps28CustomDebugStringConvertible", "currentUser"]
+- !private ["Ps28CustomDebugStringConvertible", "email"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "logout"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "revealToggle"]
+- !private ["Ps28CustomDebugStringConvertible", "revealViewController"]
+- ["Ps28CustomDebugStringConvertible", "showMainFeed"]
+- !private ["Ps28CustomDebugStringConvertible", "signOut"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "FIRAuth"]
+- !private ["Ps23CustomStringConvertible", "KEY_EMAIL"]
+- !private ["Ps23CustomStringConvertible", "KEY_UID"]
+- !private ["Ps23CustomStringConvertible", "KeychainWrapper"]
+- ["Ps23CustomStringConvertible", "accountLabel"]
+- !private ["Ps23CustomStringConvertible", "auth"]
+- !private ["Ps23CustomStringConvertible", "currentUser"]
+- !private ["Ps23CustomStringConvertible", "email"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "logout"]
+- !private ["Ps23CustomStringConvertible", "performSegue"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "revealToggle"]
+- !private ["Ps23CustomStringConvertible", "revealViewController"]
+- ["Ps23CustomStringConvertible", "showMainFeed"]
+- !private ["Ps23CustomStringConvertible", "signOut"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "FIRAuth"]
+- !private ["Ps9Equatable", "KEY_EMAIL"]
+- !private ["Ps9Equatable", "KEY_UID"]
+- !private ["Ps9Equatable", "KeychainWrapper"]
+- ["Ps9Equatable", "accountLabel"]
+- !private ["Ps9Equatable", "auth"]
+- !private ["Ps9Equatable", "currentUser"]
+- !private ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "logout"]
+- !private ["Ps9Equatable", "performSegue"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "revealToggle"]
+- !private ["Ps9Equatable", "revealViewController"]
+- ["Ps9Equatable", "showMainFeed"]
+- !private ["Ps9Equatable", "signOut"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo7FIRAuth", "auth"]
+- !private ["CSo7FIRAuth", "currentUser"]
+- ["CSo7FIRAuth", "deinit"]
+- !private ["CSo7FIRAuth", "signOut"]
+- ["CSo7FIRUser", "deinit"]
+- !private ["CSo7FIRUser", "email"]
+- !private ["PSo11FIRUserInfo", "email"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "FIRAuth"]
+- !private ["Ps8Hashable", "KEY_EMAIL"]
+- !private ["Ps8Hashable", "KEY_UID"]
+- !private ["Ps8Hashable", "KeychainWrapper"]
+- ["Ps8Hashable", "accountLabel"]
+- !private ["Ps8Hashable", "auth"]
+- !private ["Ps8Hashable", "currentUser"]
+- !private ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "logout"]
+- !private ["Ps8Hashable", "performSegue"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "revealToggle"]
+- !private ["Ps8Hashable", "revealViewController"]
+- ["Ps8Hashable", "showMainFeed"]
+- !private ["Ps8Hashable", "signOut"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- ["C20SwiftKeychainWrapper15KeychainWrapper", "deinit"]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "removeObject"]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "standard"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["C12Trial_Finder6MenuVC", "AnyObject"]
+- !private ["C12Trial_Finder6MenuVC", "FIRAuth"]
+- !private ["C12Trial_Finder6MenuVC", "KEY_EMAIL"]
+- !private ["C12Trial_Finder6MenuVC", "KEY_UID"]
+- !private ["C12Trial_Finder6MenuVC", "KeychainWrapper"]
+- ["C12Trial_Finder6MenuVC", "UILabel"]
+- ["C12Trial_Finder6MenuVC", "accountLabel"]
+- ["C12Trial_Finder6MenuVC", "deinit"]
+- ["C12Trial_Finder6MenuVC", "init"]
+- ["C12Trial_Finder6MenuVC", "logout"]
+- !private ["C12Trial_Finder6MenuVC", "performSegue"]
+- !private ["C12Trial_Finder6MenuVC", "print"]
+- !private ["C12Trial_Finder6MenuVC", "revealViewController"]
+- ["C12Trial_Finder6MenuVC", "showMainFeed"]
+- ["C12Trial_Finder6MenuVC", "viewDidLoad"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "FIRAuth"]
+- !private ["PSo8NSCoding", "KEY_EMAIL"]
+- !private ["PSo8NSCoding", "KEY_UID"]
+- !private ["PSo8NSCoding", "KeychainWrapper"]
+- ["PSo8NSCoding", "accountLabel"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "logout"]
+- !private ["PSo8NSCoding", "performSegue"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "revealToggle"]
+- !private ["PSo8NSCoding", "revealViewController"]
+- ["PSo8NSCoding", "showMainFeed"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "FIRAuth"]
+- !private ["PSo26NSExtensionRequestHandling", "KEY_EMAIL"]
+- !private ["PSo26NSExtensionRequestHandling", "KEY_UID"]
+- !private ["PSo26NSExtensionRequestHandling", "KeychainWrapper"]
+- ["PSo26NSExtensionRequestHandling", "accountLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "logout"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "revealToggle"]
+- !private ["PSo26NSExtensionRequestHandling", "revealViewController"]
+- ["PSo26NSExtensionRequestHandling", "showMainFeed"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "FIRAuth"]
+- !private ["CSo8NSObject", "KEY_EMAIL"]
+- !private ["CSo8NSObject", "KEY_UID"]
+- !private ["CSo8NSObject", "KeychainWrapper"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "accountLabel"]
+- !private ["CSo8NSObject", "auth"]
+- !private ["CSo8NSObject", "currentUser"]
+- !private ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "logout"]
+- !private ["CSo8NSObject", "performSegue"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "revealToggle"]
+- !private ["CSo8NSObject", "revealViewController"]
+- ["CSo8NSObject", "showMainFeed"]
+- !private ["CSo8NSObject", "signOut"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "FIRAuth"]
+- !private ["PSo16NSObjectProtocol", "KEY_EMAIL"]
+- !private ["PSo16NSObjectProtocol", "KEY_UID"]
+- !private ["PSo16NSObjectProtocol", "KeychainWrapper"]
+- ["PSo16NSObjectProtocol", "accountLabel"]
+- !private ["PSo16NSObjectProtocol", "auth"]
+- !private ["PSo16NSObjectProtocol", "currentUser"]
+- !private ["PSo16NSObjectProtocol", "email"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "logout"]
+- !private ["PSo16NSObjectProtocol", "performSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "revealToggle"]
+- !private ["PSo16NSObjectProtocol", "revealViewController"]
+- ["PSo16NSObjectProtocol", "showMainFeed"]
+- !private ["PSo16NSObjectProtocol", "signOut"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["CSo22SWRevealViewController", "revealToggle"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "FIRAuth"]
+- !private ["PSo21UIAppearanceContainer", "KEY_EMAIL"]
+- !private ["PSo21UIAppearanceContainer", "KEY_UID"]
+- !private ["PSo21UIAppearanceContainer", "KeychainWrapper"]
+- ["PSo21UIAppearanceContainer", "accountLabel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "logout"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "revealToggle"]
+- !private ["PSo21UIAppearanceContainer", "revealViewController"]
+- ["PSo21UIAppearanceContainer", "showMainFeed"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "FIRAuth"]
+- !private ["PSo18UIContentContainer", "KEY_EMAIL"]
+- !private ["PSo18UIContentContainer", "KEY_UID"]
+- !private ["PSo18UIContentContainer", "KeychainWrapper"]
+- ["PSo18UIContentContainer", "accountLabel"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "logout"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "revealToggle"]
+- !private ["PSo18UIContentContainer", "revealViewController"]
+- ["PSo18UIContentContainer", "showMainFeed"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "FIRAuth"]
+- !private ["PSo18UIFocusEnvironment", "KEY_EMAIL"]
+- !private ["PSo18UIFocusEnvironment", "KEY_UID"]
+- !private ["PSo18UIFocusEnvironment", "KeychainWrapper"]
+- ["PSo18UIFocusEnvironment", "accountLabel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "logout"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "revealToggle"]
+- !private ["PSo18UIFocusEnvironment", "revealViewController"]
+- ["PSo18UIFocusEnvironment", "showMainFeed"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "FIRAuth"]
+- !private ["CSo11UIResponder", "KEY_EMAIL"]
+- !private ["CSo11UIResponder", "KEY_UID"]
+- !private ["CSo11UIResponder", "KeychainWrapper"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "accountLabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "logout"]
+- !private ["CSo11UIResponder", "performSegue"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "revealToggle"]
+- !private ["CSo11UIResponder", "revealViewController"]
+- ["CSo11UIResponder", "showMainFeed"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "FIRAuth"]
+- !private ["PSo30UIResponderStandardEditActions", "KEY_EMAIL"]
+- !private ["PSo30UIResponderStandardEditActions", "KEY_UID"]
+- !private ["PSo30UIResponderStandardEditActions", "KeychainWrapper"]
+- ["PSo30UIResponderStandardEditActions", "accountLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "logout"]
+- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "revealToggle"]
+- !private ["PSo30UIResponderStandardEditActions", "revealViewController"]
+- ["PSo30UIResponderStandardEditActions", "showMainFeed"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "FIRAuth"]
+- !private ["PSo16UIStateRestoring", "KEY_EMAIL"]
+- !private ["PSo16UIStateRestoring", "KEY_UID"]
+- !private ["PSo16UIStateRestoring", "KeychainWrapper"]
+- ["PSo16UIStateRestoring", "accountLabel"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "logout"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "revealToggle"]
+- !private ["PSo16UIStateRestoring", "revealViewController"]
+- ["PSo16UIStateRestoring", "showMainFeed"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "FIRAuth"]
+- !private ["PSo18UITraitEnvironment", "KEY_EMAIL"]
+- !private ["PSo18UITraitEnvironment", "KEY_UID"]
+- !private ["PSo18UITraitEnvironment", "KeychainWrapper"]
+- ["PSo18UITraitEnvironment", "accountLabel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "logout"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "revealToggle"]
+- !private ["PSo18UITraitEnvironment", "revealViewController"]
+- ["PSo18UITraitEnvironment", "showMainFeed"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "FIRAuth"]
+- !private ["CSo16UIViewController", "KEY_EMAIL"]
+- !private ["CSo16UIViewController", "KEY_UID"]
+- !private ["CSo16UIViewController", "KeychainWrapper"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "accountLabel"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "logout"]
+- !private ["CSo16UIViewController", "performSegue"]
+- !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "revealToggle"]
+- !private ["CSo16UIViewController", "revealViewController"]
+- ["CSo16UIViewController", "showMainFeed"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "FIRAuth"]
+- !private ["Ps9_Hashable", "KEY_EMAIL"]
+- !private ["Ps9_Hashable", "KEY_UID"]
+- !private ["Ps9_Hashable", "KeychainWrapper"]
+- ["Ps9_Hashable", "accountLabel"]
+- !private ["Ps9_Hashable", "auth"]
+- !private ["Ps9_Hashable", "currentUser"]
+- !private ["Ps9_Hashable", "email"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "logout"]
+- !private ["Ps9_Hashable", "performSegue"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "revealToggle"]
+- !private ["Ps9_Hashable", "revealViewController"]
+- ["Ps9_Hashable", "showMainFeed"]
+- !private ["Ps9_Hashable", "signOut"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo7FIRAuth"
+- "CSo7FIRUser"
+- !private "PSo11FIRUserInfo"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "C20SwiftKeychainWrapper15KeychainWrapper"
+- !private "Ps25LosslessStringConvertible"
+- "C12Trial_Finder6MenuVC"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "CSo22SWRevealViewController"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Trial Finder-Bridging-Header.h"
+- "/Users/milangarg/development/projects/TrialFinder/SWRevealViewController.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLinksCommon.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLinks.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLink.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Headers/FirebaseDynamicLinks.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+interface-hash: "5230ad75219ca7c8a2d03add627e6159"

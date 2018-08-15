@@ -1,0 +1,1 @@
+/Users/milangarg/development/projects/TrialFinder/Build/Intermediates/ArchiveIntermediates/Trial Finder/InstallationBuildProductsLocation/Applications/Trial Finder.app

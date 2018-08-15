@@ -1,0 +1,6 @@
+framework module MailgunSwift {
+  umbrella header "MailgunSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "f79eee02f1ddcb5fcbe1b34e25d64cbb"
+build_time: [539342868, 614546000]
+inputs:
+  "/Users/milangarg/development/projects/TrialFinder/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainItemAccessibility.swift": [533000824, 0]
+  "/Users/milangarg/development/projects/TrialFinder/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainWrapper.swift": [533000824, 0]

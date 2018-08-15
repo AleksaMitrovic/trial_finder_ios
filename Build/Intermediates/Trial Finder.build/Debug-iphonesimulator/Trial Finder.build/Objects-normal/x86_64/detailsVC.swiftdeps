@@ -1,0 +1,2022 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "detailsVC"
+provides-nominal:
+- "C12Trial_Finder9detailsVC"
+provides-member:
+- ["C12Trial_Finder9detailsVC", ""]
+provides-dynamic-lookup:
+- "callButton"
+- "showDirection"
+- "call"
+- "nameLabel"
+- "email"
+- "addressLabel"
+- "mailComposeController"
+- "chat"
+- "viewDidLoad"
+- "prepare"
+- "detaisLabel"
+- "emailButton"
+- "back"
+- "emailLabel"
+- "imageView"
+- "phoneLabel"
+depends-top-level:
+- "AnyObject"
+- "Error"
+- "UIStoryboardSegue"
+- "Trial"
+- "MFMailComposeViewControllerDelegate"
+- "UIViewController"
+- !private "BooleanLiteralType"
+- "UILabel"
+- !private "UIAlertController"
+- "UIImageView"
+- !private "StringLiteralType"
+- !private "Array"
+- !private "print"
+- !private "UIAlertAction"
+- !private "mapsVC"
+- "detailsVC"
+- !private "KEY_EMAIL"
+- !private "ChatVC"
+- "SiteList"
+- "MFMailComposeViewController"
+- !private "KeychainWrapper"
+- "CastingPrecedence"
+- "UIButton"
+- !private "UIBarButtonItem"
+- "AssignmentPrecedence"
+- !private "!"
+- !private "CLLocation"
+- !private "=="
+- !private "String"
+- !private "DataService"
+- !private "URL"
+- "MFMailComposeResult"
+- !private "UIApplication"
+- !private "Dictionary"
+depends-member:
+- !private ["Ps9AnyObject", "CLLocation"]
+- !private ["Ps9AnyObject", "DataService"]
+- !private ["Ps9AnyObject", "KEY_EMAIL"]
+- !private ["Ps9AnyObject", "KeychainWrapper"]
+- !private ["Ps9AnyObject", "MFMailComposeViewController"]
+- !private ["Ps9AnyObject", "REF_MESSAGES"]
+- !private ["Ps9AnyObject", "SiteList"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "UIBarButtonItem"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "addAction"]
+- !private ["Ps9AnyObject", "address"]
+- ["Ps9AnyObject", "addressLabel"]
+- ["Ps9AnyObject", "back"]
+- !private ["Ps9AnyObject", "backBarButtonItem"]
+- ["Ps9AnyObject", "call"]
+- ["Ps9AnyObject", "callButton"]
+- !private ["Ps9AnyObject", "canSendMail"]
+- ["Ps9AnyObject", "chat"]
+- !private ["Ps9AnyObject", "child"]
+- !private ["Ps9AnyObject", "destination"]
+- !private ["Ps9AnyObject", "details"]
+- ["Ps9AnyObject", "detaisLabel"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "ds"]
+- ["Ps9AnyObject", "email"]
+- ["Ps9AnyObject", "emailButton"]
+- ["Ps9AnyObject", "emailLabel"]
+- !private ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "imageView"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "isHidden"]
+- !private ["Ps9AnyObject", "latitude"]
+- !private ["Ps9AnyObject", "location"]
+- !private ["Ps9AnyObject", "logoUrl"]
+- !private ["Ps9AnyObject", "longitude"]
+- ["Ps9AnyObject", "mailComposeController"]
+- !private ["Ps9AnyObject", "mailComposeDelegate"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "nameLabel"]
+- !private ["Ps9AnyObject", "navigationItem"]
+- !private ["Ps9AnyObject", "open"]
+- !private ["Ps9AnyObject", "performSegue"]
+- ["Ps9AnyObject", "phoneLabel"]
+- !private ["Ps9AnyObject", "phoneNumber"]
+- ["Ps9AnyObject", "prepare"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "sd_setImage"]
+- !private ["Ps9AnyObject", "senderDisplayName"]
+- !private ["Ps9AnyObject", "setToRecipients"]
+- !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "showDirection"]
+- !private ["Ps9AnyObject", "site"]
+- !private ["Ps9AnyObject", "siteListRef"]
+- ["Ps9AnyObject", "siteLists"]
+- !private ["Ps9AnyObject", "siteName"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "studyName"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "trial"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "Index"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Indices"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "SubSequence"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Index"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Indices"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "SubSequence"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "append"]
+- !private ["Ps22BidirectionalIndexable", "subscript"]
+- !private ["Vs18BidirectionalSlice", "Index"]
+- !private ["Vs18BidirectionalSlice", "IndexDistance"]
+- !private ["Vs18BidirectionalSlice", "Indices"]
+- !private ["Vs18BidirectionalSlice", "Iterator"]
+- !private ["Vs18BidirectionalSlice", "SubSequence"]
+- !private ["Vs18BidirectionalSlice", "_Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["PSo15CALayerDelegate", "sd_setImage"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["CSo10CLLocation", "deinit"]
+- !private ["CSo10CLLocation", "init"]
+- !private ["Ps7CVarArg", "CLLocation"]
+- !private ["Ps7CVarArg", "DataService"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "KEY_EMAIL"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "KeychainWrapper"]
+- !private ["Ps7CVarArg", "MFMailComposeViewController"]
+- !private ["Ps7CVarArg", "SiteList"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UIAlertAction"]
+- !private ["Ps7CVarArg", "UIAlertController"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "UIBarButtonItem"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "addAction"]
+- ["Ps7CVarArg", "addressLabel"]
+- !private ["Ps7CVarArg", "append"]
+- ["Ps7CVarArg", "back"]
+- !private ["Ps7CVarArg", "backBarButtonItem"]
+- ["Ps7CVarArg", "call"]
+- ["Ps7CVarArg", "callButton"]
+- !private ["Ps7CVarArg", "canSendMail"]
+- ["Ps7CVarArg", "chat"]
+- !private ["Ps7CVarArg", "child"]
+- !private ["Ps7CVarArg", "destination"]
+- ["Ps7CVarArg", "detaisLabel"]
+- !private ["Ps7CVarArg", "dismiss"]
+- ["Ps7CVarArg", "email"]
+- ["Ps7CVarArg", "emailButton"]
+- ["Ps7CVarArg", "emailLabel"]
+- !private ["Ps7CVarArg", "identifier"]
+- ["Ps7CVarArg", "imageView"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "isHidden"]
+- !private ["Ps7CVarArg", "location"]
+- ["Ps7CVarArg", "mailComposeController"]
+- !private ["Ps7CVarArg", "mailComposeDelegate"]
+- ["Ps7CVarArg", "nameLabel"]
+- !private ["Ps7CVarArg", "navigationItem"]
+- !private ["Ps7CVarArg", "open"]
+- !private ["Ps7CVarArg", "performSegue"]
+- ["Ps7CVarArg", "phoneLabel"]
+- ["Ps7CVarArg", "prepare"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "sd_setImage"]
+- !private ["Ps7CVarArg", "senderDisplayName"]
+- !private ["Ps7CVarArg", "setToRecipients"]
+- !private ["Ps7CVarArg", "shared"]
+- ["Ps7CVarArg", "showDirection"]
+- !private ["Ps7CVarArg", "siteListRef"]
+- ["Ps7CVarArg", "siteLists"]
+- !private ["Ps7CVarArg", "siteName"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "title"]
+- ["Ps7CVarArg", "trial"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- ["C12Trial_Finder6ChatVC", "deinit"]
+- !private ["C12Trial_Finder6ChatVC", "senderDisplayName"]
+- !private ["C12Trial_Finder6ChatVC", "siteListRef"]
+- !private ["C12Trial_Finder6ChatVC", "siteName"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Indices"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "CLLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "DataService"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "KEY_EMAIL"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "KeychainWrapper"]
+- !private ["Ps28CustomDebugStringConvertible", "MFMailComposeViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "SiteList"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- ["Ps28CustomDebugStringConvertible", "addressLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "back"]
+- !private ["Ps28CustomDebugStringConvertible", "backBarButtonItem"]
+- ["Ps28CustomDebugStringConvertible", "call"]
+- ["Ps28CustomDebugStringConvertible", "callButton"]
+- !private ["Ps28CustomDebugStringConvertible", "canSendMail"]
+- ["Ps28CustomDebugStringConvertible", "chat"]
+- !private ["Ps28CustomDebugStringConvertible", "child"]
+- !private ["Ps28CustomDebugStringConvertible", "destination"]
+- ["Ps28CustomDebugStringConvertible", "detaisLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- ["Ps28CustomDebugStringConvertible", "email"]
+- ["Ps28CustomDebugStringConvertible", "emailButton"]
+- ["Ps28CustomDebugStringConvertible", "emailLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "imageView"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "isHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- ["Ps28CustomDebugStringConvertible", "mailComposeController"]
+- !private ["Ps28CustomDebugStringConvertible", "mailComposeDelegate"]
+- ["Ps28CustomDebugStringConvertible", "nameLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
+- !private ["Ps28CustomDebugStringConvertible", "open"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
+- ["Ps28CustomDebugStringConvertible", "phoneLabel"]
+- ["Ps28CustomDebugStringConvertible", "prepare"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "sd_setImage"]
+- !private ["Ps28CustomDebugStringConvertible", "senderDisplayName"]
+- !private ["Ps28CustomDebugStringConvertible", "setToRecipients"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- ["Ps28CustomDebugStringConvertible", "showDirection"]
+- !private ["Ps28CustomDebugStringConvertible", "siteListRef"]
+- ["Ps28CustomDebugStringConvertible", "siteLists"]
+- !private ["Ps28CustomDebugStringConvertible", "siteName"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "trial"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "CLLocation"]
+- !private ["Ps23CustomStringConvertible", "DataService"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "KEY_EMAIL"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "KeychainWrapper"]
+- !private ["Ps23CustomStringConvertible", "MFMailComposeViewController"]
+- !private ["Ps23CustomStringConvertible", "SiteList"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIAlertAction"]
+- !private ["Ps23CustomStringConvertible", "UIAlertController"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- ["Ps23CustomStringConvertible", "addressLabel"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "back"]
+- !private ["Ps23CustomStringConvertible", "backBarButtonItem"]
+- ["Ps23CustomStringConvertible", "call"]
+- ["Ps23CustomStringConvertible", "callButton"]
+- !private ["Ps23CustomStringConvertible", "canSendMail"]
+- ["Ps23CustomStringConvertible", "chat"]
+- !private ["Ps23CustomStringConvertible", "child"]
+- !private ["Ps23CustomStringConvertible", "destination"]
+- ["Ps23CustomStringConvertible", "detaisLabel"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- ["Ps23CustomStringConvertible", "email"]
+- ["Ps23CustomStringConvertible", "emailButton"]
+- ["Ps23CustomStringConvertible", "emailLabel"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "imageView"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "isHidden"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- ["Ps23CustomStringConvertible", "mailComposeController"]
+- !private ["Ps23CustomStringConvertible", "mailComposeDelegate"]
+- ["Ps23CustomStringConvertible", "nameLabel"]
+- !private ["Ps23CustomStringConvertible", "navigationItem"]
+- !private ["Ps23CustomStringConvertible", "open"]
+- !private ["Ps23CustomStringConvertible", "performSegue"]
+- ["Ps23CustomStringConvertible", "phoneLabel"]
+- ["Ps23CustomStringConvertible", "prepare"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "sd_setImage"]
+- !private ["Ps23CustomStringConvertible", "senderDisplayName"]
+- !private ["Ps23CustomStringConvertible", "setToRecipients"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- ["Ps23CustomStringConvertible", "showDirection"]
+- !private ["Ps23CustomStringConvertible", "siteListRef"]
+- ["Ps23CustomStringConvertible", "siteLists"]
+- !private ["Ps23CustomStringConvertible", "siteName"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "trial"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C12Trial_Finder11DataService", "REF_MESSAGES"]
+- ["C12Trial_Finder11DataService", "deinit"]
+- !private ["C12Trial_Finder11DataService", "ds"]
+- !private ["Vs27DefaultBidirectionalIndices", "Index"]
+- !private ["Vs27DefaultBidirectionalIndices", "Iterator"]
+- !private ["Vs27DefaultBidirectionalIndices", "SubSequence"]
+- !private ["Vs27DefaultBidirectionalIndices", "_Element"]
+- !private ["Vs26DefaultRandomAccessIndices", "Index"]
+- !private ["Vs26DefaultRandomAccessIndices", "IndexDistance"]
+- !private ["Vs26DefaultRandomAccessIndices", "Indices"]
+- !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
+- !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
+- !private ["Vs26DefaultRandomAccessIndices", "_Element"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CLLocation"]
+- !private ["Ps9Equatable", "DataService"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "KEY_EMAIL"]
+- !private ["Ps9Equatable", "KeychainWrapper"]
+- !private ["Ps9Equatable", "MFMailComposeViewController"]
+- !private ["Ps9Equatable", "SiteList"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "UIAlertAction"]
+- !private ["Ps9Equatable", "UIAlertController"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "UIBarButtonItem"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addAction"]
+- ["Ps9Equatable", "addressLabel"]
+- !private ["Ps9Equatable", "alert"]
+- ["Ps9Equatable", "back"]
+- !private ["Ps9Equatable", "backBarButtonItem"]
+- ["Ps9Equatable", "call"]
+- ["Ps9Equatable", "callButton"]
+- !private ["Ps9Equatable", "canSendMail"]
+- !private ["Ps9Equatable", "cancel"]
+- ["Ps9Equatable", "chat"]
+- !private ["Ps9Equatable", "child"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "destination"]
+- ["Ps9Equatable", "detaisLabel"]
+- !private ["Ps9Equatable", "dismiss"]
+- ["Ps9Equatable", "email"]
+- ["Ps9Equatable", "emailButton"]
+- ["Ps9Equatable", "emailLabel"]
+- !private ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "imageView"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "isHidden"]
+- !private ["Ps9Equatable", "location"]
+- ["Ps9Equatable", "mailComposeController"]
+- !private ["Ps9Equatable", "mailComposeDelegate"]
+- ["Ps9Equatable", "nameLabel"]
+- !private ["Ps9Equatable", "navigationItem"]
+- !private ["Ps9Equatable", "open"]
+- !private ["Ps9Equatable", "performSegue"]
+- ["Ps9Equatable", "phoneLabel"]
+- !private ["Ps9Equatable", "plain"]
+- ["Ps9Equatable", "prepare"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "sd_setImage"]
+- !private ["Ps9Equatable", "senderDisplayName"]
+- !private ["Ps9Equatable", "setToRecipients"]
+- !private ["Ps9Equatable", "shared"]
+- ["Ps9Equatable", "showDirection"]
+- !private ["Ps9Equatable", "siteListRef"]
+- ["Ps9Equatable", "siteLists"]
+- !private ["Ps9Equatable", "siteName"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "trial"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["CSo16FIRDatabaseQuery", "child"]
+- !private ["CSo20FIRDatabaseReference", "child"]
+- ["CSo20FIRDatabaseReference", "deinit"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "CLLocation"]
+- !private ["Ps8Hashable", "DataService"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "KEY_EMAIL"]
+- !private ["Ps8Hashable", "KeychainWrapper"]
+- !private ["Ps8Hashable", "MFMailComposeViewController"]
+- !private ["Ps8Hashable", "SiteList"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "UIAlertAction"]
+- !private ["Ps8Hashable", "UIAlertController"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "UIBarButtonItem"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addAction"]
+- ["Ps8Hashable", "addressLabel"]
+- !private ["Ps8Hashable", "alert"]
+- ["Ps8Hashable", "back"]
+- !private ["Ps8Hashable", "backBarButtonItem"]
+- ["Ps8Hashable", "call"]
+- ["Ps8Hashable", "callButton"]
+- !private ["Ps8Hashable", "canSendMail"]
+- !private ["Ps8Hashable", "cancel"]
+- ["Ps8Hashable", "chat"]
+- !private ["Ps8Hashable", "child"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "destination"]
+- ["Ps8Hashable", "detaisLabel"]
+- !private ["Ps8Hashable", "dismiss"]
+- ["Ps8Hashable", "email"]
+- ["Ps8Hashable", "emailButton"]
+- ["Ps8Hashable", "emailLabel"]
+- !private ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "imageView"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "isHidden"]
+- !private ["Ps8Hashable", "location"]
+- ["Ps8Hashable", "mailComposeController"]
+- !private ["Ps8Hashable", "mailComposeDelegate"]
+- ["Ps8Hashable", "nameLabel"]
+- !private ["Ps8Hashable", "navigationItem"]
+- !private ["Ps8Hashable", "open"]
+- !private ["Ps8Hashable", "performSegue"]
+- ["Ps8Hashable", "phoneLabel"]
+- !private ["Ps8Hashable", "plain"]
+- ["Ps8Hashable", "prepare"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "sd_setImage"]
+- !private ["Ps8Hashable", "senderDisplayName"]
+- !private ["Ps8Hashable", "setToRecipients"]
+- !private ["Ps8Hashable", "shared"]
+- ["Ps8Hashable", "showDirection"]
+- !private ["Ps8Hashable", "siteListRef"]
+- ["Ps8Hashable", "siteLists"]
+- !private ["Ps8Hashable", "siteName"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "trial"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Indices"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Indices"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "append"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "senderDisplayName"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "siteListRef"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "siteName"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "senderDisplayName"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "siteListRef"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "siteName"]
+- !private ["CSo25JSQMessagesViewController", "senderDisplayName"]
+- !private ["CSo25JSQMessagesViewController", "siteListRef"]
+- !private ["CSo25JSQMessagesViewController", "siteName"]
+- ["C20SwiftKeychainWrapper15KeychainWrapper", "deinit"]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "standard"]
+- !private ["C20SwiftKeychainWrapper15KeychainWrapper", "string"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["CSo27MFMailComposeViewController", "canSendMail"]
+- ["CSo27MFMailComposeViewController", "deinit"]
+- !private ["CSo27MFMailComposeViewController", "dismiss"]
+- !private ["CSo27MFMailComposeViewController", "init"]
+- !private ["CSo27MFMailComposeViewController", "mailComposeDelegate"]
+- !private ["CSo27MFMailComposeViewController", "setToRecipients"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "CLLocation"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "DataService"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "KEY_EMAIL"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "KeychainWrapper"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "MFMailComposeViewController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "SiteList"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "UIAlertAction"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "UIAlertController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "UIApplication"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "UIBarButtonItem"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "URL"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "addressLabel"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "callButton"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "detaisLabel"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "dismiss"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "emailButton"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "emailLabel"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "imageView"]
+- ["PSo35MFMailComposeViewControllerDelegate", "mailComposeController"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "nameLabel"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "navigationItem"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "performSegue"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "phoneLabel"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "present"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "print"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "siteLists"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "title"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "trial"]
+- ["PSo35MFMailComposeViewControllerDelegate", ""]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Index"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "SubSequence"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CLLocation"]
+- !private ["PSo8NSCoding", "DataService"]
+- !private ["PSo8NSCoding", "KEY_EMAIL"]
+- !private ["PSo8NSCoding", "KeychainWrapper"]
+- !private ["PSo8NSCoding", "MFMailComposeViewController"]
+- !private ["PSo8NSCoding", "SiteList"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- !private ["PSo8NSCoding", "UIBarButtonItem"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "addAction"]
+- ["PSo8NSCoding", "addressLabel"]
+- ["PSo8NSCoding", "back"]
+- !private ["PSo8NSCoding", "backBarButtonItem"]
+- ["PSo8NSCoding", "call"]
+- ["PSo8NSCoding", "callButton"]
+- !private ["PSo8NSCoding", "canSendMail"]
+- ["PSo8NSCoding", "chat"]
+- ["PSo8NSCoding", "detaisLabel"]
+- !private ["PSo8NSCoding", "dismiss"]
+- ["PSo8NSCoding", "email"]
+- ["PSo8NSCoding", "emailButton"]
+- ["PSo8NSCoding", "emailLabel"]
+- ["PSo8NSCoding", "imageView"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "isHidden"]
+- !private ["PSo8NSCoding", "location"]
+- ["PSo8NSCoding", "mailComposeController"]
+- !private ["PSo8NSCoding", "mailComposeDelegate"]
+- ["PSo8NSCoding", "nameLabel"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "performSegue"]
+- ["PSo8NSCoding", "phoneLabel"]
+- ["PSo8NSCoding", "prepare"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "sd_setImage"]
+- !private ["PSo8NSCoding", "senderDisplayName"]
+- !private ["PSo8NSCoding", "setToRecipients"]
+- ["PSo8NSCoding", "showDirection"]
+- !private ["PSo8NSCoding", "siteListRef"]
+- ["PSo8NSCoding", "siteLists"]
+- !private ["PSo8NSCoding", "siteName"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", "trial"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo26NSExtensionRequestHandling", "CLLocation"]
+- !private ["PSo26NSExtensionRequestHandling", "DataService"]
+- !private ["PSo26NSExtensionRequestHandling", "KEY_EMAIL"]
+- !private ["PSo26NSExtensionRequestHandling", "KeychainWrapper"]
+- !private ["PSo26NSExtensionRequestHandling", "MFMailComposeViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "SiteList"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
+- !private ["PSo26NSExtensionRequestHandling", "URL"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- ["PSo26NSExtensionRequestHandling", "addressLabel"]
+- ["PSo26NSExtensionRequestHandling", "back"]
+- ["PSo26NSExtensionRequestHandling", "call"]
+- ["PSo26NSExtensionRequestHandling", "callButton"]
+- !private ["PSo26NSExtensionRequestHandling", "canSendMail"]
+- ["PSo26NSExtensionRequestHandling", "chat"]
+- ["PSo26NSExtensionRequestHandling", "detaisLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- ["PSo26NSExtensionRequestHandling", "email"]
+- ["PSo26NSExtensionRequestHandling", "emailButton"]
+- ["PSo26NSExtensionRequestHandling", "emailLabel"]
+- ["PSo26NSExtensionRequestHandling", "imageView"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "location"]
+- ["PSo26NSExtensionRequestHandling", "mailComposeController"]
+- !private ["PSo26NSExtensionRequestHandling", "mailComposeDelegate"]
+- ["PSo26NSExtensionRequestHandling", "nameLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- ["PSo26NSExtensionRequestHandling", "phoneLabel"]
+- ["PSo26NSExtensionRequestHandling", "prepare"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "senderDisplayName"]
+- !private ["PSo26NSExtensionRequestHandling", "setToRecipients"]
+- ["PSo26NSExtensionRequestHandling", "showDirection"]
+- !private ["PSo26NSExtensionRequestHandling", "siteListRef"]
+- ["PSo26NSExtensionRequestHandling", "siteLists"]
+- !private ["PSo26NSExtensionRequestHandling", "siteName"]
+- !private ["PSo26NSExtensionRequestHandling", "title"]
+- ["PSo26NSExtensionRequestHandling", "trial"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CLLocation"]
+- !private ["CSo8NSObject", "ChatVC"]
+- !private ["CSo8NSObject", "DataService"]
+- ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "KEY_EMAIL"]
+- !private ["CSo8NSObject", "KeychainWrapper"]
+- ["CSo8NSObject", "MFMailComposeResult"]
+- ["CSo8NSObject", "MFMailComposeViewController"]
+- ["CSo8NSObject", "SiteList"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Trial"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- !private ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "UIBarButtonItem"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "addAction"]
+- ["CSo8NSObject", "addressLabel"]
+- ["CSo8NSObject", "back"]
+- !private ["CSo8NSObject", "backBarButtonItem"]
+- ["CSo8NSObject", "call"]
+- ["CSo8NSObject", "callButton"]
+- !private ["CSo8NSObject", "canSendMail"]
+- ["CSo8NSObject", "chat"]
+- !private ["CSo8NSObject", "child"]
+- !private ["CSo8NSObject", "destination"]
+- ["CSo8NSObject", "detaisLabel"]
+- !private ["CSo8NSObject", "dismiss"]
+- ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "emailButton"]
+- ["CSo8NSObject", "emailLabel"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "imageView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "isHidden"]
+- !private ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "mailComposeController"]
+- !private ["CSo8NSObject", "mailComposeDelegate"]
+- !private ["CSo8NSObject", "mapsVC"]
+- ["CSo8NSObject", "nameLabel"]
+- !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "open"]
+- !private ["CSo8NSObject", "performSegue"]
+- ["CSo8NSObject", "phoneLabel"]
+- ["CSo8NSObject", "prepare"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "sd_setImage"]
+- !private ["CSo8NSObject", "senderDisplayName"]
+- !private ["CSo8NSObject", "setToRecipients"]
+- !private ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "showDirection"]
+- !private ["CSo8NSObject", "siteListRef"]
+- ["CSo8NSObject", "siteLists"]
+- !private ["CSo8NSObject", "siteName"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "trial"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CLLocation"]
+- !private ["PSo16NSObjectProtocol", "DataService"]
+- !private ["PSo16NSObjectProtocol", "KEY_EMAIL"]
+- !private ["PSo16NSObjectProtocol", "KeychainWrapper"]
+- !private ["PSo16NSObjectProtocol", "MFMailComposeViewController"]
+- !private ["PSo16NSObjectProtocol", "SiteList"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- ["PSo16NSObjectProtocol", "addressLabel"]
+- ["PSo16NSObjectProtocol", "back"]
+- !private ["PSo16NSObjectProtocol", "backBarButtonItem"]
+- ["PSo16NSObjectProtocol", "call"]
+- ["PSo16NSObjectProtocol", "callButton"]
+- !private ["PSo16NSObjectProtocol", "canSendMail"]
+- ["PSo16NSObjectProtocol", "chat"]
+- !private ["PSo16NSObjectProtocol", "child"]
+- !private ["PSo16NSObjectProtocol", "destination"]
+- ["PSo16NSObjectProtocol", "detaisLabel"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- ["PSo16NSObjectProtocol", "email"]
+- ["PSo16NSObjectProtocol", "emailButton"]
+- ["PSo16NSObjectProtocol", "emailLabel"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "imageView"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "isHidden"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", "mailComposeController"]
+- !private ["PSo16NSObjectProtocol", "mailComposeDelegate"]
+- ["PSo16NSObjectProtocol", "nameLabel"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "open"]
+- !private ["PSo16NSObjectProtocol", "performSegue"]
+- ["PSo16NSObjectProtocol", "phoneLabel"]
+- ["PSo16NSObjectProtocol", "prepare"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "sd_setImage"]
+- !private ["PSo16NSObjectProtocol", "senderDisplayName"]
+- !private ["PSo16NSObjectProtocol", "setToRecipients"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- ["PSo16NSObjectProtocol", "showDirection"]
+- !private ["PSo16NSObjectProtocol", "siteListRef"]
+- ["PSo16NSObjectProtocol", "siteLists"]
+- !private ["PSo16NSObjectProtocol", "siteName"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "trial"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "Index"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Indices"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "SubSequence"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Index"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Indices"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "SubSequence"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "append"]
+- !private ["Ps21RandomAccessIndexable", "subscript"]
+- !private ["Vs17RandomAccessSlice", "Index"]
+- !private ["Vs17RandomAccessSlice", "IndexDistance"]
+- !private ["Vs17RandomAccessSlice", "Indices"]
+- !private ["Vs17RandomAccessSlice", "Iterator"]
+- !private ["Vs17RandomAccessSlice", "SubSequence"]
+- !private ["Vs17RandomAccessSlice", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Index"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Index"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "SubSequence"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "append"]
+- !private ["Ps25RangeReplaceableIndexable", "subscript"]
+- !private ["Ps16RawRepresentable", "alert"]
+- !private ["Ps16RawRepresentable", "cancel"]
+- !private ["Ps16RawRepresentable", "default"]
+- !private ["Ps16RawRepresentable", "plain"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Indices"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["C12Trial_Finder4Site", "address"]
+- ["C12Trial_Finder4Site", "deinit"]
+- !private ["C12Trial_Finder4Site", "email"]
+- !private ["C12Trial_Finder4Site", "latitude"]
+- !private ["C12Trial_Finder4Site", "logoUrl"]
+- !private ["C12Trial_Finder4Site", "longitude"]
+- !private ["C12Trial_Finder4Site", "name"]
+- !private ["C12Trial_Finder4Site", "phoneNumber"]
+- ["C12Trial_Finder8SiteList", "deinit"]
+- !private ["C12Trial_Finder8SiteList", "init"]
+- !private ["C12Trial_Finder8SiteList", "siteName"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- ["C12Trial_Finder5Trial", "deinit"]
+- !private ["C12Trial_Finder5Trial", "details"]
+- !private ["C12Trial_Finder5Trial", "site"]
+- !private ["C12Trial_Finder5Trial", "studyName"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo29UIAccessibilityIdentification", "sd_setImage"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["CSo13UIAlertAction", "deinit"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "cancel"]
+- !private ["OSC18UIAlertActionStyle", "default"]
+- ["OSC18UIAlertActionStyle", "deinit"]
+- !private ["CSo17UIAlertController", "addAction"]
+- ["CSo17UIAlertController", "deinit"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "alert"]
+- ["OSC22UIAlertControllerStyle", "deinit"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo12UIAppearance", "sd_setImage"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "CLLocation"]
+- !private ["PSo21UIAppearanceContainer", "DataService"]
+- !private ["PSo21UIAppearanceContainer", "KEY_EMAIL"]
+- !private ["PSo21UIAppearanceContainer", "KeychainWrapper"]
+- !private ["PSo21UIAppearanceContainer", "MFMailComposeViewController"]
+- !private ["PSo21UIAppearanceContainer", "SiteList"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- ["PSo21UIAppearanceContainer", "addressLabel"]
+- ["PSo21UIAppearanceContainer", "back"]
+- ["PSo21UIAppearanceContainer", "call"]
+- ["PSo21UIAppearanceContainer", "callButton"]
+- !private ["PSo21UIAppearanceContainer", "canSendMail"]
+- ["PSo21UIAppearanceContainer", "chat"]
+- ["PSo21UIAppearanceContainer", "detaisLabel"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- ["PSo21UIAppearanceContainer", "email"]
+- ["PSo21UIAppearanceContainer", "emailButton"]
+- ["PSo21UIAppearanceContainer", "emailLabel"]
+- ["PSo21UIAppearanceContainer", "imageView"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isHidden"]
+- !private ["PSo21UIAppearanceContainer", "location"]
+- ["PSo21UIAppearanceContainer", "mailComposeController"]
+- !private ["PSo21UIAppearanceContainer", "mailComposeDelegate"]
+- ["PSo21UIAppearanceContainer", "nameLabel"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- ["PSo21UIAppearanceContainer", "phoneLabel"]
+- ["PSo21UIAppearanceContainer", "prepare"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "sd_setImage"]
+- !private ["PSo21UIAppearanceContainer", "senderDisplayName"]
+- !private ["PSo21UIAppearanceContainer", "setToRecipients"]
+- ["PSo21UIAppearanceContainer", "showDirection"]
+- !private ["PSo21UIAppearanceContainer", "siteListRef"]
+- ["PSo21UIAppearanceContainer", "siteLists"]
+- !private ["PSo21UIAppearanceContainer", "siteName"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "title"]
+- ["PSo21UIAppearanceContainer", "trial"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo13UIApplication", "deinit"]
+- !private ["CSo13UIApplication", "open"]
+- !private ["CSo13UIApplication", "shared"]
+- ["CSo15UIBarButtonItem", "deinit"]
+- !private ["CSo15UIBarButtonItem", "init"]
+- ["OSC20UIBarButtonItemStyle", "deinit"]
+- !private ["OSC20UIBarButtonItemStyle", "plain"]
+- !private ["CSo9UIBarItem", "init"]
+- !private ["CSo8UIButton", "isHidden"]
+- !private ["PSo26UICollectionViewDataSource", "senderDisplayName"]
+- !private ["PSo26UICollectionViewDataSource", "siteListRef"]
+- !private ["PSo26UICollectionViewDataSource", "siteName"]
+- !private ["PSo24UICollectionViewDelegate", "senderDisplayName"]
+- !private ["PSo24UICollectionViewDelegate", "siteListRef"]
+- !private ["PSo24UICollectionViewDelegate", "siteName"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "senderDisplayName"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "siteListRef"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "siteName"]
+- !private ["PSo18UIContentContainer", "CLLocation"]
+- !private ["PSo18UIContentContainer", "DataService"]
+- !private ["PSo18UIContentContainer", "KEY_EMAIL"]
+- !private ["PSo18UIContentContainer", "KeychainWrapper"]
+- !private ["PSo18UIContentContainer", "MFMailComposeViewController"]
+- !private ["PSo18UIContentContainer", "SiteList"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItem"]
+- !private ["PSo18UIContentContainer", "URL"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- ["PSo18UIContentContainer", "addressLabel"]
+- ["PSo18UIContentContainer", "back"]
+- ["PSo18UIContentContainer", "call"]
+- ["PSo18UIContentContainer", "callButton"]
+- !private ["PSo18UIContentContainer", "canSendMail"]
+- ["PSo18UIContentContainer", "chat"]
+- ["PSo18UIContentContainer", "detaisLabel"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- ["PSo18UIContentContainer", "email"]
+- ["PSo18UIContentContainer", "emailButton"]
+- ["PSo18UIContentContainer", "emailLabel"]
+- ["PSo18UIContentContainer", "imageView"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "location"]
+- ["PSo18UIContentContainer", "mailComposeController"]
+- !private ["PSo18UIContentContainer", "mailComposeDelegate"]
+- ["PSo18UIContentContainer", "nameLabel"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- ["PSo18UIContentContainer", "phoneLabel"]
+- ["PSo18UIContentContainer", "prepare"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "senderDisplayName"]
+- !private ["PSo18UIContentContainer", "setToRecipients"]
+- ["PSo18UIContentContainer", "showDirection"]
+- !private ["PSo18UIContentContainer", "siteListRef"]
+- ["PSo18UIContentContainer", "siteLists"]
+- !private ["PSo18UIContentContainer", "siteName"]
+- !private ["PSo18UIContentContainer", "title"]
+- ["PSo18UIContentContainer", "trial"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "sd_setImage"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo13UIDynamicItem", "sd_setImage"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "CLLocation"]
+- !private ["PSo18UIFocusEnvironment", "DataService"]
+- !private ["PSo18UIFocusEnvironment", "KEY_EMAIL"]
+- !private ["PSo18UIFocusEnvironment", "KeychainWrapper"]
+- !private ["PSo18UIFocusEnvironment", "MFMailComposeViewController"]
+- !private ["PSo18UIFocusEnvironment", "SiteList"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- ["PSo18UIFocusEnvironment", "addressLabel"]
+- ["PSo18UIFocusEnvironment", "back"]
+- ["PSo18UIFocusEnvironment", "call"]
+- ["PSo18UIFocusEnvironment", "callButton"]
+- !private ["PSo18UIFocusEnvironment", "canSendMail"]
+- ["PSo18UIFocusEnvironment", "chat"]
+- ["PSo18UIFocusEnvironment", "detaisLabel"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- ["PSo18UIFocusEnvironment", "email"]
+- ["PSo18UIFocusEnvironment", "emailButton"]
+- ["PSo18UIFocusEnvironment", "emailLabel"]
+- ["PSo18UIFocusEnvironment", "imageView"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "location"]
+- ["PSo18UIFocusEnvironment", "mailComposeController"]
+- !private ["PSo18UIFocusEnvironment", "mailComposeDelegate"]
+- ["PSo18UIFocusEnvironment", "nameLabel"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- ["PSo18UIFocusEnvironment", "phoneLabel"]
+- ["PSo18UIFocusEnvironment", "prepare"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "sd_setImage"]
+- !private ["PSo18UIFocusEnvironment", "senderDisplayName"]
+- !private ["PSo18UIFocusEnvironment", "setToRecipients"]
+- ["PSo18UIFocusEnvironment", "showDirection"]
+- !private ["PSo18UIFocusEnvironment", "siteListRef"]
+- ["PSo18UIFocusEnvironment", "siteLists"]
+- !private ["PSo18UIFocusEnvironment", "siteName"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "title"]
+- ["PSo18UIFocusEnvironment", "trial"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "sd_setImage"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo11UIImageView", "sd_setImage"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo22UINavigationController", "canSendMail"]
+- !private ["CSo22UINavigationController", "dismiss"]
+- !private ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "mailComposeDelegate"]
+- !private ["CSo22UINavigationController", "setToRecipients"]
+- !private ["CSo16UINavigationItem", "backBarButtonItem"]
+- ["CSo16UINavigationItem", "deinit"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "CLLocation"]
+- !private ["CSo11UIResponder", "ChatVC"]
+- !private ["CSo11UIResponder", "DataService"]
+- ["CSo11UIResponder", "Error"]
+- !private ["CSo11UIResponder", "KEY_EMAIL"]
+- !private ["CSo11UIResponder", "KeychainWrapper"]
+- ["CSo11UIResponder", "MFMailComposeResult"]
+- ["CSo11UIResponder", "MFMailComposeViewController"]
+- ["CSo11UIResponder", "SiteList"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "Trial"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- !private ["CSo11UIResponder", "UIBarButtonItem"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- !private ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "addAction"]
+- ["CSo11UIResponder", "addressLabel"]
+- ["CSo11UIResponder", "back"]
+- ["CSo11UIResponder", "call"]
+- ["CSo11UIResponder", "callButton"]
+- !private ["CSo11UIResponder", "canSendMail"]
+- ["CSo11UIResponder", "chat"]
+- ["CSo11UIResponder", "detaisLabel"]
+- !private ["CSo11UIResponder", "dismiss"]
+- ["CSo11UIResponder", "email"]
+- ["CSo11UIResponder", "emailButton"]
+- ["CSo11UIResponder", "emailLabel"]
+- ["CSo11UIResponder", "imageView"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isHidden"]
+- !private ["CSo11UIResponder", "location"]
+- ["CSo11UIResponder", "mailComposeController"]
+- !private ["CSo11UIResponder", "mailComposeDelegate"]
+- !private ["CSo11UIResponder", "mapsVC"]
+- ["CSo11UIResponder", "nameLabel"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- !private ["CSo11UIResponder", "open"]
+- !private ["CSo11UIResponder", "performSegue"]
+- ["CSo11UIResponder", "phoneLabel"]
+- ["CSo11UIResponder", "prepare"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "sd_setImage"]
+- !private ["CSo11UIResponder", "senderDisplayName"]
+- !private ["CSo11UIResponder", "setToRecipients"]
+- !private ["CSo11UIResponder", "shared"]
+- ["CSo11UIResponder", "showDirection"]
+- !private ["CSo11UIResponder", "siteListRef"]
+- ["CSo11UIResponder", "siteLists"]
+- !private ["CSo11UIResponder", "siteName"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "title"]
+- ["CSo11UIResponder", "trial"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "CLLocation"]
+- !private ["PSo30UIResponderStandardEditActions", "DataService"]
+- !private ["PSo30UIResponderStandardEditActions", "KEY_EMAIL"]
+- !private ["PSo30UIResponderStandardEditActions", "KeychainWrapper"]
+- !private ["PSo30UIResponderStandardEditActions", "MFMailComposeViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "SiteList"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertAction"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- !private ["PSo30UIResponderStandardEditActions", "UIBarButtonItem"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- !private ["PSo30UIResponderStandardEditActions", "addAction"]
+- ["PSo30UIResponderStandardEditActions", "addressLabel"]
+- ["PSo30UIResponderStandardEditActions", "back"]
+- ["PSo30UIResponderStandardEditActions", "call"]
+- ["PSo30UIResponderStandardEditActions", "callButton"]
+- !private ["PSo30UIResponderStandardEditActions", "canSendMail"]
+- ["PSo30UIResponderStandardEditActions", "chat"]
+- ["PSo30UIResponderStandardEditActions", "detaisLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- ["PSo30UIResponderStandardEditActions", "email"]
+- ["PSo30UIResponderStandardEditActions", "emailButton"]
+- ["PSo30UIResponderStandardEditActions", "emailLabel"]
+- ["PSo30UIResponderStandardEditActions", "imageView"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "location"]
+- ["PSo30UIResponderStandardEditActions", "mailComposeController"]
+- !private ["PSo30UIResponderStandardEditActions", "mailComposeDelegate"]
+- ["PSo30UIResponderStandardEditActions", "nameLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationItem"]
+- !private ["PSo30UIResponderStandardEditActions", "open"]
+- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
+- ["PSo30UIResponderStandardEditActions", "phoneLabel"]
+- ["PSo30UIResponderStandardEditActions", "prepare"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "sd_setImage"]
+- !private ["PSo30UIResponderStandardEditActions", "senderDisplayName"]
+- !private ["PSo30UIResponderStandardEditActions", "setToRecipients"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- ["PSo30UIResponderStandardEditActions", "showDirection"]
+- !private ["PSo30UIResponderStandardEditActions", "siteListRef"]
+- ["PSo30UIResponderStandardEditActions", "siteLists"]
+- !private ["PSo30UIResponderStandardEditActions", "siteName"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "title"]
+- ["PSo30UIResponderStandardEditActions", "trial"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "senderDisplayName"]
+- !private ["PSo20UIScrollViewDelegate", "siteListRef"]
+- !private ["PSo20UIScrollViewDelegate", "siteName"]
+- !private ["PSo16UIStateRestoring", "CLLocation"]
+- !private ["PSo16UIStateRestoring", "DataService"]
+- !private ["PSo16UIStateRestoring", "KEY_EMAIL"]
+- !private ["PSo16UIStateRestoring", "KeychainWrapper"]
+- !private ["PSo16UIStateRestoring", "MFMailComposeViewController"]
+- !private ["PSo16UIStateRestoring", "SiteList"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
+- !private ["PSo16UIStateRestoring", "URL"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- ["PSo16UIStateRestoring", "addressLabel"]
+- ["PSo16UIStateRestoring", "back"]
+- ["PSo16UIStateRestoring", "call"]
+- ["PSo16UIStateRestoring", "callButton"]
+- !private ["PSo16UIStateRestoring", "canSendMail"]
+- ["PSo16UIStateRestoring", "chat"]
+- ["PSo16UIStateRestoring", "detaisLabel"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- ["PSo16UIStateRestoring", "email"]
+- ["PSo16UIStateRestoring", "emailButton"]
+- ["PSo16UIStateRestoring", "emailLabel"]
+- ["PSo16UIStateRestoring", "imageView"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "location"]
+- ["PSo16UIStateRestoring", "mailComposeController"]
+- !private ["PSo16UIStateRestoring", "mailComposeDelegate"]
+- ["PSo16UIStateRestoring", "nameLabel"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- ["PSo16UIStateRestoring", "phoneLabel"]
+- ["PSo16UIStateRestoring", "prepare"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "senderDisplayName"]
+- !private ["PSo16UIStateRestoring", "setToRecipients"]
+- ["PSo16UIStateRestoring", "showDirection"]
+- !private ["PSo16UIStateRestoring", "siteListRef"]
+- ["PSo16UIStateRestoring", "siteLists"]
+- !private ["PSo16UIStateRestoring", "siteName"]
+- !private ["PSo16UIStateRestoring", "title"]
+- ["PSo16UIStateRestoring", "trial"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo17UIStoryboardSegue", "deinit"]
+- !private ["CSo17UIStoryboardSegue", "destination"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["PSo18UITextViewDelegate", "senderDisplayName"]
+- !private ["PSo18UITextViewDelegate", "siteListRef"]
+- !private ["PSo18UITextViewDelegate", "siteName"]
+- !private ["PSo18UITraitEnvironment", "CLLocation"]
+- !private ["PSo18UITraitEnvironment", "DataService"]
+- !private ["PSo18UITraitEnvironment", "KEY_EMAIL"]
+- !private ["PSo18UITraitEnvironment", "KeychainWrapper"]
+- !private ["PSo18UITraitEnvironment", "MFMailComposeViewController"]
+- !private ["PSo18UITraitEnvironment", "SiteList"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- ["PSo18UITraitEnvironment", "addressLabel"]
+- ["PSo18UITraitEnvironment", "back"]
+- ["PSo18UITraitEnvironment", "call"]
+- ["PSo18UITraitEnvironment", "callButton"]
+- !private ["PSo18UITraitEnvironment", "canSendMail"]
+- ["PSo18UITraitEnvironment", "chat"]
+- ["PSo18UITraitEnvironment", "detaisLabel"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- ["PSo18UITraitEnvironment", "email"]
+- ["PSo18UITraitEnvironment", "emailButton"]
+- ["PSo18UITraitEnvironment", "emailLabel"]
+- ["PSo18UITraitEnvironment", "imageView"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isHidden"]
+- !private ["PSo18UITraitEnvironment", "location"]
+- ["PSo18UITraitEnvironment", "mailComposeController"]
+- !private ["PSo18UITraitEnvironment", "mailComposeDelegate"]
+- ["PSo18UITraitEnvironment", "nameLabel"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- ["PSo18UITraitEnvironment", "phoneLabel"]
+- ["PSo18UITraitEnvironment", "prepare"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "sd_setImage"]
+- !private ["PSo18UITraitEnvironment", "senderDisplayName"]
+- !private ["PSo18UITraitEnvironment", "setToRecipients"]
+- ["PSo18UITraitEnvironment", "showDirection"]
+- !private ["PSo18UITraitEnvironment", "siteListRef"]
+- ["PSo18UITraitEnvironment", "siteLists"]
+- !private ["PSo18UITraitEnvironment", "siteName"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "title"]
+- ["PSo18UITraitEnvironment", "trial"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "isHidden"]
+- !private ["CSo6UIView", "sd_setImage"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "CLLocation"]
+- !private ["CSo16UIViewController", "ChatVC"]
+- !private ["CSo16UIViewController", "DataService"]
+- ["CSo16UIViewController", "Error"]
+- !private ["CSo16UIViewController", "KEY_EMAIL"]
+- !private ["CSo16UIViewController", "KeychainWrapper"]
+- ["CSo16UIViewController", "MFMailComposeResult"]
+- ["CSo16UIViewController", "MFMailComposeViewController"]
+- ["CSo16UIViewController", "SiteList"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "Trial"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertController"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- !private ["CSo16UIViewController", "UIBarButtonItem"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- !private ["CSo16UIViewController", "URL"]
+- !private ["CSo16UIViewController", "addAction"]
+- ["CSo16UIViewController", "addressLabel"]
+- ["CSo16UIViewController", "back"]
+- ["CSo16UIViewController", "call"]
+- ["CSo16UIViewController", "callButton"]
+- !private ["CSo16UIViewController", "canSendMail"]
+- ["CSo16UIViewController", "chat"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "detaisLabel"]
+- !private ["CSo16UIViewController", "dismiss"]
+- ["CSo16UIViewController", "email"]
+- ["CSo16UIViewController", "emailButton"]
+- ["CSo16UIViewController", "emailLabel"]
+- ["CSo16UIViewController", "imageView"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "location"]
+- ["CSo16UIViewController", "mailComposeController"]
+- !private ["CSo16UIViewController", "mailComposeDelegate"]
+- !private ["CSo16UIViewController", "mapsVC"]
+- ["CSo16UIViewController", "nameLabel"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- !private ["CSo16UIViewController", "performSegue"]
+- ["CSo16UIViewController", "phoneLabel"]
+- ["CSo16UIViewController", "prepare"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "senderDisplayName"]
+- !private ["CSo16UIViewController", "setToRecipients"]
+- ["CSo16UIViewController", "showDirection"]
+- !private ["CSo16UIViewController", "siteListRef"]
+- ["CSo16UIViewController", "siteLists"]
+- !private ["CSo16UIViewController", "siteName"]
+- !private ["CSo16UIViewController", "title"]
+- ["CSo16UIViewController", "trial"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Index"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "SubSequence"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "sd_setImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps9_Hashable", "CLLocation"]
+- !private ["Ps9_Hashable", "DataService"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "KEY_EMAIL"]
+- !private ["Ps9_Hashable", "KeychainWrapper"]
+- !private ["Ps9_Hashable", "MFMailComposeViewController"]
+- !private ["Ps9_Hashable", "SiteList"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "UIAlertAction"]
+- !private ["Ps9_Hashable", "UIAlertController"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "UIBarButtonItem"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addAction"]
+- ["Ps9_Hashable", "addressLabel"]
+- !private ["Ps9_Hashable", "alert"]
+- ["Ps9_Hashable", "back"]
+- !private ["Ps9_Hashable", "backBarButtonItem"]
+- ["Ps9_Hashable", "call"]
+- ["Ps9_Hashable", "callButton"]
+- !private ["Ps9_Hashable", "canSendMail"]
+- !private ["Ps9_Hashable", "cancel"]
+- ["Ps9_Hashable", "chat"]
+- !private ["Ps9_Hashable", "child"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "destination"]
+- ["Ps9_Hashable", "detaisLabel"]
+- !private ["Ps9_Hashable", "dismiss"]
+- ["Ps9_Hashable", "email"]
+- ["Ps9_Hashable", "emailButton"]
+- ["Ps9_Hashable", "emailLabel"]
+- !private ["Ps9_Hashable", "identifier"]
+- ["Ps9_Hashable", "imageView"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "isHidden"]
+- !private ["Ps9_Hashable", "location"]
+- ["Ps9_Hashable", "mailComposeController"]
+- !private ["Ps9_Hashable", "mailComposeDelegate"]
+- ["Ps9_Hashable", "nameLabel"]
+- !private ["Ps9_Hashable", "navigationItem"]
+- !private ["Ps9_Hashable", "open"]
+- !private ["Ps9_Hashable", "performSegue"]
+- ["Ps9_Hashable", "phoneLabel"]
+- !private ["Ps9_Hashable", "plain"]
+- ["Ps9_Hashable", "prepare"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "sd_setImage"]
+- !private ["Ps9_Hashable", "senderDisplayName"]
+- !private ["Ps9_Hashable", "setToRecipients"]
+- !private ["Ps9_Hashable", "shared"]
+- ["Ps9_Hashable", "showDirection"]
+- !private ["Ps9_Hashable", "siteListRef"]
+- ["Ps9_Hashable", "siteLists"]
+- !private ["Ps9_Hashable", "siteName"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "title"]
+- ["Ps9_Hashable", "trial"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+- ["C12Trial_Finder9detailsVC", "AnyObject"]
+- !private ["C12Trial_Finder9detailsVC", "CLLocation"]
+- !private ["C12Trial_Finder9detailsVC", "ChatVC"]
+- !private ["C12Trial_Finder9detailsVC", "DataService"]
+- ["C12Trial_Finder9detailsVC", "Error"]
+- !private ["C12Trial_Finder9detailsVC", "KEY_EMAIL"]
+- !private ["C12Trial_Finder9detailsVC", "KeychainWrapper"]
+- ["C12Trial_Finder9detailsVC", "MFMailComposeResult"]
+- ["C12Trial_Finder9detailsVC", "MFMailComposeViewController"]
+- ["C12Trial_Finder9detailsVC", "SiteList"]
+- !private ["C12Trial_Finder9detailsVC", "String"]
+- ["C12Trial_Finder9detailsVC", "Trial"]
+- !private ["C12Trial_Finder9detailsVC", "UIAlertAction"]
+- !private ["C12Trial_Finder9detailsVC", "UIAlertController"]
+- !private ["C12Trial_Finder9detailsVC", "UIApplication"]
+- !private ["C12Trial_Finder9detailsVC", "UIBarButtonItem"]
+- ["C12Trial_Finder9detailsVC", "UIButton"]
+- ["C12Trial_Finder9detailsVC", "UIImageView"]
+- ["C12Trial_Finder9detailsVC", "UILabel"]
+- ["C12Trial_Finder9detailsVC", "UIStoryboardSegue"]
+- !private ["C12Trial_Finder9detailsVC", "URL"]
+- ["C12Trial_Finder9detailsVC", "addressLabel"]
+- ["C12Trial_Finder9detailsVC", "back"]
+- ["C12Trial_Finder9detailsVC", "call"]
+- ["C12Trial_Finder9detailsVC", "callButton"]
+- ["C12Trial_Finder9detailsVC", "chat"]
+- ["C12Trial_Finder9detailsVC", "deinit"]
+- ["C12Trial_Finder9detailsVC", "detaisLabel"]
+- !private ["C12Trial_Finder9detailsVC", "dismiss"]
+- ["C12Trial_Finder9detailsVC", "email"]
+- ["C12Trial_Finder9detailsVC", "emailButton"]
+- ["C12Trial_Finder9detailsVC", "emailLabel"]
+- ["C12Trial_Finder9detailsVC", "imageView"]
+- ["C12Trial_Finder9detailsVC", "init"]
+- ["C12Trial_Finder9detailsVC", "mailComposeController"]
+- !private ["C12Trial_Finder9detailsVC", "mapsVC"]
+- ["C12Trial_Finder9detailsVC", "nameLabel"]
+- !private ["C12Trial_Finder9detailsVC", "navigationItem"]
+- !private ["C12Trial_Finder9detailsVC", "performSegue"]
+- ["C12Trial_Finder9detailsVC", "phoneLabel"]
+- ["C12Trial_Finder9detailsVC", "prepare"]
+- !private ["C12Trial_Finder9detailsVC", "present"]
+- !private ["C12Trial_Finder9detailsVC", "print"]
+- ["C12Trial_Finder9detailsVC", "showDirection"]
+- ["C12Trial_Finder9detailsVC", "siteLists"]
+- !private ["C12Trial_Finder9detailsVC", "title"]
+- ["C12Trial_Finder9detailsVC", "trial"]
+- ["C12Trial_Finder9detailsVC", "viewDidLoad"]
+- ["C12Trial_Finder6mapsVC", "deinit"]
+- !private ["C12Trial_Finder6mapsVC", "location"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Vs18BidirectionalSlice"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "CSo10CLLocation"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "C12Trial_Finder6ChatVC"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C12Trial_Finder11DataService"
+- !private "Vs27DefaultBidirectionalIndices"
+- !private "Vs26DefaultRandomAccessIndices"
+- !private "Vs10Dictionary"
+- "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo16FIRDatabaseQuery"
+- "CSo20FIRDatabaseReference"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "PSo35JSQMessagesCollectionViewDataSource"
+- !private "PSo43JSQMessagesCollectionViewDelegateFlowLayout"
+- !private "CSo25JSQMessagesViewController"
+- "C20SwiftKeychainWrapper15KeychainWrapper"
+- !private "Ps25LosslessStringConvertible"
+- "CSo27MFMailComposeViewController"
+- "PSo35MFMailComposeViewControllerDelegate"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs17RandomAccessSlice"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "C12Trial_Finder4Site"
+- "C12Trial_Finder8SiteList"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C12Trial_Finder5Trial"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo13UIAlertAction"
+- "OSC18UIAlertActionStyle"
+- "CSo17UIAlertController"
+- "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- "CSo15UIBarButtonItem"
+- "OSC20UIBarButtonItemStyle"
+- !private "CSo9UIBarItem"
+- !private "CSo8UIButton"
+- !private "PSo26UICollectionViewDataSource"
+- !private "PSo24UICollectionViewDelegate"
+- !private "PSo34UICollectionViewDelegateFlowLayout"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- !private "CSo22UINavigationController"
+- "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "CSo17UIStoryboardSegue"
+- !private "PSo18UITextViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "V10Foundation3URL"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "C12Trial_Finder9detailsVC"
+- "C12Trial_Finder6mapsVC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Trial Finder-Bridging-Header.h"
+- "/Users/milangarg/development/projects/TrialFinder/SWRevealViewController.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLinksCommon.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLinks.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLink.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Headers/FirebaseDynamicLinks.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseDynamicLinks/Frameworks/frameworks/FirebaseDynamicLinks.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/milangarg/development/projects/TrialFinder/Build/Products/Debug-iphonesimulator/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+interface-hash: "cc14d32f31ae3b6a96c7cf8a8a3288a3"
